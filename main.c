@@ -323,7 +323,7 @@ int main()
 	rc.dir_x = 0;
 	rc.dir_y = -1;
     void *tmp = mlx_init();
-    wind.id = mlx_new_window(tmp, 100, 100, "Just for the clavier");
+    wind.id = mlx_new_window(tmp, 300, 100, "Just for the clavier");
     raycast();
 	mlx_hook(wind.id, 2, 0, check_move, NULL);
 	mlx_hook(wind.id, 2, 0, check_move, NULL);
